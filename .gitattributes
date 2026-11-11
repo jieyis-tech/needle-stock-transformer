@@ -1,0 +1,15 @@
+* text=auto
+*.py text eol=lf
+*.cu text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.txt text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.pptx binary
+
+# Keep the original HW2 snapshot byte-for-byte: its provenance stores SHA256s.
+vendor/needle/** -text

@@ -1,0 +1,18 @@
+{
+  "tests": 9,
+  "successful": true,
+  "failures": [],
+  "errors": [],
+  "seconds": 0.4113781000050949,
+  "metrics": {
+    "attention_max_abs": 2.384185791015625e-07,
+    "attention_gradient_max_abs": 2.2649765014648438e-06,
+    "master_max_abs": 1.2878587085651816e-14,
+    "master_parameter_gradient_max_abs": 9.139355938714289e-13
+  },
+  "python": "3.12.12",
+  "numpy": "2.4.6",
+  "torch": "2.9.1+cu128",
+  "vendor_files_verified": 19,
+  "scope": "CPU float32/float64 attention and dropout-free MASTER; first-order derivatives"
+}

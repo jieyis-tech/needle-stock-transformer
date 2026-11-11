@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "epochs": 3,
+  "dim": 32,
+  "block_size": 64,
+  "lr": 0.001,
+  "clip_grad_norm": 1.0,
+  "modes": [
+    "dense",
+    "dense_vjp",
+    "tiled"
+  ],
+  "dropout": 0,
+  "loss": "1-Pearson within each labelled cross-section",
+  "selection": "fixed protocol; no epoch/model/hyperparameter selection from validation/test",
+  "panel_fingerprint": "33029f9b3bc98fded0296867dd35b6c1871a8c7f38d0ffc4a65cd8b313219f85",
+  "panel_manifest": "C:\\Users\\15272\\Documents\\ChatGPT\\deep learning system\\data\\real_panel_v1\\manifest.json",
+  "smoke": false,
+  "script_sha256": "f2308a9fc59049995cf84c5943ad140dc10f0677019a7836cb272ecac0d1cdd2"
+}

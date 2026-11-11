@@ -1,0 +1,540 @@
+{
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "cupy": "14.2.0",
+  "numpy": "2.4.6",
+  "rows": [
+    {
+      "task": "model",
+      "mode": "dense",
+      "stocks": 128,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        16.289099999994505,
+        14.215499999409076,
+        14.836200003628619,
+        14.529699998092838,
+        14.297100002295338
+      ],
+      "cuda_event_ms": [
+        16.16067123413086,
+        14.203200340270996,
+        14.824159622192383,
+        14.520671844482422,
+        14.282719612121582
+      ],
+      "wall_median_ms": 14.529699998092838,
+      "cuda_event_median_ms": 14.520671844482422,
+      "pool_baseline_mib": 0.2265625,
+      "pool_peak_live_mib": 37.50390625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense_vjp",
+      "stocks": 128,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        15.701699994679075,
+        13.54410000203643,
+        14.217800002370495,
+        14.126800000667572,
+        13.831899996148422
+      ],
+      "cuda_event_ms": [
+        15.680416107177734,
+        13.534175872802734,
+        14.207103729248047,
+        14.115584373474121,
+        13.816191673278809
+      ],
+      "wall_median_ms": 14.126800000667572,
+      "cuda_event_median_ms": 14.115584373474121,
+      "pool_baseline_mib": 0.2265625,
+      "pool_peak_live_mib": 21.77734375,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 128,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        14.966499998990912,
+        13.715599998249672,
+        13.767300006293226,
+        13.685199999599718,
+        13.385600002948195
+      ],
+      "cuda_event_ms": [
+        14.859583854675293,
+        13.699999809265137,
+        13.752096176147461,
+        13.672608375549316,
+        13.374208450317383
+      ],
+      "wall_median_ms": 13.715599998249672,
+      "cuda_event_median_ms": 13.699999809265137,
+      "pool_baseline_mib": 0.2265625,
+      "pool_peak_live_mib": 20.03125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense",
+      "stocks": 512,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        18.278000003192574,
+        13.855500001227483,
+        15.753199993923772,
+        14.468700006545987,
+        14.174699994327966
+      ],
+      "cuda_event_ms": [
+        18.244096755981445,
+        13.842752456665039,
+        15.741120338439941,
+        14.453791618347168,
+        14.162976264953613
+      ],
+      "wall_median_ms": 14.468700006545987,
+      "cuda_event_median_ms": 14.453791618347168,
+      "pool_baseline_mib": 0.40234375,
+      "pool_peak_live_mib": 394.5400390625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense_vjp",
+      "stocks": 512,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        15.205800002149772,
+        13.503599999239668,
+        13.938399999460671,
+        13.456500004394911,
+        14.244300000427756
+      ],
+      "cuda_event_ms": [
+        15.12713623046875,
+        13.488160133361816,
+        13.922687530517578,
+        13.44326400756836,
+        14.232159614562988
+      ],
+      "wall_median_ms": 13.938399999460671,
+      "cuda_event_median_ms": 13.922687530517578,
+      "pool_baseline_mib": 0.40234375,
+      "pool_peak_live_mib": 126.5986328125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 512,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        19.305699999677017,
+        15.257999999448657,
+        14.607599994633347,
+        14.175799995427951,
+        14.26309999806108
+      ],
+      "cuda_event_ms": [
+        19.25539207458496,
+        15.242783546447754,
+        14.596256256103516,
+        14.164544105529785,
+        14.25216007232666
+      ],
+      "wall_median_ms": 14.607599994633347,
+      "cuda_event_median_ms": 14.596256256103516,
+      "pool_baseline_mib": 0.40234375,
+      "pool_peak_live_mib": 79.4541015625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense",
+      "stocks": 1024,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        23.48850000271341,
+        15.94949999707751,
+        16.546200000448152,
+        16.585800003667828,
+        16.542500001378357
+      ],
+      "cuda_event_ms": [
+        23.365535736083984,
+        15.939007759094238,
+        16.533632278442383,
+        16.576000213623047,
+        16.531967163085938
+      ],
+      "wall_median_ms": 16.546200000448152,
+      "cuda_event_median_ms": 16.533632278442383,
+      "pool_baseline_mib": 0.63671875,
+      "pool_peak_live_mib": 1460.8876953125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense_vjp",
+      "stocks": 1024,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        17.879200000606943,
+        15.660799996112473,
+        14.68080000631744,
+        16.470899994601496,
+        15.656299998227041
+      ],
+      "cuda_event_ms": [
+        17.765567779541016,
+        15.647680282592773,
+        14.66966438293457,
+        16.456575393676758,
+        15.643487930297852
+      ],
+      "wall_median_ms": 15.660799996112473,
+      "cuda_event_median_ms": 15.647680282592773,
+      "pool_baseline_mib": 0.63671875,
+      "pool_peak_live_mib": 397.0087890625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 1024,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        26.7766999968444,
+        21.381900005508214,
+        21.766900004877243,
+        22.306200000457466,
+        21.80749999388354
+      ],
+      "cuda_event_ms": [
+        26.73196792602539,
+        21.363872528076172,
+        21.742143630981445,
+        22.285823822021484,
+        21.78223991394043
+      ],
+      "wall_median_ms": 21.80749999388354,
+      "cuda_event_median_ms": 21.78223991394043,
+      "pool_baseline_mib": 0.63671875,
+      "pool_peak_live_mib": 158.6845703125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 512,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 32,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        18.800600002577994,
+        14.125599998806138,
+        13.831199998094235,
+        13.463999996019993,
+        13.772300000709947
+      ],
+      "cuda_event_ms": [
+        18.756895065307617,
+        14.114784240722656,
+        13.819680213928223,
+        13.451552391052246,
+        13.757696151733398
+      ],
+      "wall_median_ms": 13.831199998094235,
+      "cuda_event_median_ms": 13.819680213928223,
+      "pool_baseline_mib": 0.40234375,
+      "pool_peak_live_mib": 79.4541015625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 512,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 128,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        19.775100001425017,
+        14.336100000946317,
+        14.406599999347236,
+        14.068800002860371,
+        14.445100001466926
+      ],
+      "cuda_event_ms": [
+        19.74064064025879,
+        14.325599670410156,
+        14.395968437194824,
+        14.057567596435547,
+        14.434304237365723
+      ],
+      "wall_median_ms": 14.406599999347236,
+      "cuda_event_median_ms": 14.395968437194824,
+      "pool_baseline_mib": 0.40234375,
+      "pool_peak_live_mib": 79.4541015625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense_vjp",
+      "stocks": 512,
+      "time_steps": 4,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        15.497799999138806,
+        14.731100003700703,
+        13.731600003666244,
+        14.428099995711818,
+        15.488600001845043
+      ],
+      "cuda_event_ms": [
+        15.465855598449707,
+        14.71731185913086,
+        13.716544151306152,
+        14.415776252746582,
+        15.474464416503906
+      ],
+      "wall_median_ms": 14.731100003700703,
+      "cuda_event_median_ms": 14.71731185913086,
+      "pool_baseline_mib": 0.24609375,
+      "pool_peak_live_mib": 42.2080078125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 512,
+      "time_steps": 4,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        15.666400002373848,
+        13.833900004101451,
+        13.3847999968566,
+        13.5223000033875,
+        13.323799998033792
+      ],
+      "cuda_event_ms": [
+        15.55571174621582,
+        13.823455810546875,
+        13.375167846679688,
+        13.510432243347168,
+        13.310015678405762
+      ],
+      "wall_median_ms": 13.5223000033875,
+      "cuda_event_median_ms": 13.510432243347168,
+      "pool_baseline_mib": 0.24609375,
+      "pool_peak_live_mib": 27.7421875,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "dense_vjp",
+      "stocks": 512,
+      "time_steps": 24,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        16.888500002096407,
+        14.165699998557102,
+        14.278599999670405,
+        15.473499996005557,
+        14.741599996341392
+      ],
+      "cuda_event_ms": [
+        16.858623504638672,
+        14.154239654541016,
+        14.268896102905273,
+        15.462783813476562,
+        14.730912208557129
+      ],
+      "wall_median_ms": 14.741599996341392,
+      "cuda_event_median_ms": 14.730912208557129,
+      "pool_baseline_mib": 0.63671875,
+      "pool_peak_live_mib": 255.0595703125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "model",
+      "mode": "tiled",
+      "stocks": 512,
+      "time_steps": 24,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        24.13879999949131,
+        17.42559999547666,
+        15.612099996360485,
+        16.363499998988118,
+        16.688999996404164
+      ],
+      "cuda_event_ms": [
+        24.103967666625977,
+        17.41200065612793,
+        15.59222412109375,
+        16.351520538330078,
+        16.676767349243164
+      ],
+      "wall_median_ms": 16.688999996404164,
+      "cuda_event_median_ms": 16.676767349243164,
+      "pool_baseline_mib": 0.63671875,
+      "pool_peak_live_mib": 158.4853515625,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "attention",
+      "mode": "dense_vjp",
+      "stocks": 1024,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        6.550900005095173,
+        4.823499999474734,
+        4.599600004439708,
+        4.5669000028283335,
+        4.557200001727324
+      ],
+      "cuda_event_ms": [
+        6.515103816986084,
+        4.803135871887207,
+        4.489471912384033,
+        4.544384002685547,
+        4.547264099121094
+      ],
+      "wall_median_ms": 4.599600004439708,
+      "cuda_event_median_ms": 4.547264099121094,
+      "pool_baseline_mib": 4.5,
+      "pool_peak_live_mib": 300.001953125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    },
+    {
+      "task": "attention",
+      "mode": "tiled",
+      "stocks": 1024,
+      "time_steps": 12,
+      "dim": 32,
+      "block": 64,
+      "dtype": "float32",
+      "seed": 101,
+      "warmups": 2,
+      "repeats": 5,
+      "wall_ms": [
+        14.029199999640696,
+        12.885799995274283,
+        13.393699999141973,
+        12.96580000052927,
+        12.858999994932674
+      ],
+      "cuda_event_ms": [
+        13.994527816772461,
+        12.86467170715332,
+        13.375967979431152,
+        12.934080123901367,
+        12.837823867797852
+      ],
+      "wall_median_ms": 12.96580000052927,
+      "cuda_event_median_ms": 12.934080123901367,
+      "pool_baseline_mib": 4.5,
+      "pool_peak_live_mib": 12.189453125,
+      "memory_scope": "CuPy allocator live peak; excludes CUDA context and external library workspaces"
+    }
+  ],
+  "smoke": false,
+  "backend": "Needle CUDA array adapter, CuPy BLAS, project attention CUDA kernels",
+  "project_root": "C:\\\u5b66\u4e60\u8d44\u6599\\\u78142\\DEEP LEARNING SYSTEM\\final_projects\\needle_master",
+  "measured_at_utc": "2026-10-26T07:17:30.109694+00:00",
+  "cuda_source_sha256": "948e0364e5f535942131ba9f2ba27a75b594d1fe64215a3464036644cfab4c80",
+  "backend_source_sha256": "db48f18e31cdbae73b51f387d413bcd795d69e8a47e0249fef7c45614af743bf"
+}

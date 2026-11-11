@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "panel_sha256": "33029f9b3bc98fded0296867dd35b6c1871a8c7f38d0ffc4a65cd8b313219f85",
+  "split_label_date_audit": {
+    "train": {
+      "scored": 28178,
+      "unlabelled_scored": 416
+    },
+    "validation": {
+      "scored": 12787,
+      "unlabelled_scored": 357
+    },
+    "test": {
+      "scored": 13465,
+      "unlabelled_scored": 208
+    }
+  },
+  "real_sample_date": "20140102",
+  "scored_stocks": 124,
+  "loss_label_stocks": 123,
+  "master_fp64_max_output_abs": 1.2256862191861728e-13,
+  "master_fp64_max_parameter_gradient_abs": 4.936884234751915e-13,
+  "first_loss": 0.7623301434992741,
+  "limitations": "FP64 full-model reference; FP32 CUDA kernel separately validated. Does not imply identical FP32 Adam trajectories."
+}

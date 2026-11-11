@@ -1,0 +1,3 @@
+-r requirements.txt
+# Independent oracle for output/gradient tests; not the model backend.
+torch>=2.0

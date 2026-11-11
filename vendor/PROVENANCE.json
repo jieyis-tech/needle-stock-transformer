@@ -1,0 +1,25 @@
+{
+  "source": "C:\\学习资料\\研2\\DEEP LEARNING SYSTEM\\homework\\hw2\\course_repo\\python\\needle",
+  "description": "Read-only snapshot of local completed HW2; no upstream source modified. Project extensions live in master_needle/.",
+  "files": {
+    "autograd.py": "2c7bb455db36ba9e92e7544b39539c94d8f2262b1f5d79bcf1f069200063642a",
+    "backend_numpy.py": "6cf12088852bf68282f8c66fcad2f2feb8d4a658dae7559630dc70dd5496e137",
+    "optim.py": "04dcab7601766c95186bc4d67535e1d01ea1f46301c6f4157e6666be1c41a783",
+    "__init__.py": "a75df6ef58d748d5bdd7efd23747d47c5917962eba2c19bd9be1ca8dd1b83566",
+    "data/data_basic.py": "2da52a6bbb33cc73666199cf7df6178e27b5efff48347da87187460b517cbbdc",
+    "data/data_transforms.py": "f0f346ba5ed9189bf8c93bc9f0de9aa78b2005fc7666ca1b6095340598a51b1f",
+    "data/__init__.py": "ca676c183c5381b7402c7df4777f4c9fcf2c37622ce75bfdfda79ccb9fb95c4b",
+    "init/init_basic.py": "4ec1a1afaa179f1f9dda774c2bd4b512687b81f353da43f3d95ccec7f6f8981a",
+    "init/init_initializers.py": "f745e6e3711e99bf811209631c80a833e98685a821801bb38d54aea3ebb7cfe9",
+    "init/__init__.py": "3fd5b6dc9313c71511590cb097c05ba8da42cad254caafc330a87fd18b78eac7",
+    "nn/nn_basic.py": "29c729992e36b99ca59a5de4954beb2c8ea665faa84691f11ce1820b70eaacbe",
+    "nn/__init__.py": "a004dbf7a6aaa51aff675d137b4728d1f65ba671d4242173d187d1e4d7eeaef3",
+    "ops/ops_logarithmic.py": "0060847f780cc70cc7abe5038bc7b0733e9309a147dde320850cafa23bda52ea",
+    "ops/ops_mathematic.py": "60e4af0951da4245e122966281b8dd14a0352f5c9a6f95d3c8ec2d200acaea1c",
+    "ops/ops_tuple.py": "d4b617f353354380964bdfc8b53a90d5aa35514ca973bb48be09f92762fce677",
+    "ops/__init__.py": "1063f021b4f8f2edd5568acf6df5a037e2efe7bf9468138df2d1631df42f7f78",
+    "data/datasets/mnist_dataset.py": "47ec88d1e31a703d63a10b2e9942d94547246eee5ccc867a9e7d84d995c19b0e",
+    "data/datasets/ndarray_dataset.py": "a5bd9d05defc768fa455faf9ab7468bf11910cc8585171be4e0439e315c61b2e",
+    "data/datasets/__init__.py": "1f2527065b383a32691398f920d6a4d48c0f2914778a58ee0e8c1a3262461319"
+  }
+}

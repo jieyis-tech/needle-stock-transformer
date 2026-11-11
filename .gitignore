@@ -1,0 +1,58 @@
+# Local runtimes, caches and machine-specific receipts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/.deps/
+/.verification/
+/.venv/
+/venv/
+/MIGRATION.json
+
+# Source datasets and generated model/score arrays stay local.
+# Anchor data to the root: vendor/needle/data contains required Python source.
+/data/
+/checkpoints/
+*.npy
+*.npz
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Archives may contain datasets. Keep only the report notebook in deliverables.
+*.zip
+*.tar
+*.tar.gz
+*.7z
+/deliverables/*
+!/deliverables/Needle_MASTER_Report.ipynb
+
+# Private build/validation output and rehearsal logs
+/checkin/.build/
+/checkin/.chart-data-*/
+/checkin/demo_runs/
+/checkin/*.docx
+/results/real_training_smoke_v*/
+/results/*_before_*.json
+/results/*_pre_migration.json
+/results/gpu_benchmark_smoke.json
+/results/*verification*.json
+
+# Credentials and system files
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+.DS_Store
+Thumbs.db
+
